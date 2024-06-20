@@ -247,5 +247,5 @@ resetBtn.addEventListener("click", function () {
 
 // Ensure player names are updated after DOM content is loaded
 document.addEventListener("DOMContentLoaded", function () {
-  changePlayerNames();
+  setTimeout(changePlayerNames, 1000);
 });
